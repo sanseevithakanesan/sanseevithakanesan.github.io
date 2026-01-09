@@ -55,12 +55,12 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="hero-section" style={{ 
+    <section id="home" className="hero-section bg-grey" style={{ 
       paddingTop: '80px',
       minHeight: '100vh',
       display: 'flex',
       alignItems: 'center',
-      backgroundColor: darkMode ? '#111827' : '#ffffff'
+      backgroundColor: darkMode ? '#111827' : '#111827'
     }}>
       <div className="container">
         <div className="row align-items-center">
@@ -68,13 +68,13 @@ const Hero = () => {
             <div className="hero-content">
               {/* Direct colors - no CSS variables */}
               <h1 className="display-4 fw-bold mb-3" style={{ 
-                color: darkMode ? '#ffffff' : '#1f2937'
+                color: darkMode ? '#111827' : '#1f2937'
               }}>
                 Hi, I'm <span style={{ color: '#4f46e5' }}>Sanseevitha</span>
               </h1>
               
               <h2 className="h3 mb-4" style={{ 
-                color: darkMode ? '#ffffff' : '#1f2937',
+                color: darkMode ? '#111827' : '#1f2937',
                 minHeight: '40px'
               }}>
                 <span style={{ 
