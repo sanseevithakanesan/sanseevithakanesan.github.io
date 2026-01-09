@@ -9,7 +9,7 @@ const Hero = () => {
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
-
+  const msg = "Hello, I want more details";
   
   useEffect(() => {
     const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -40,7 +40,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: <FaGithub />, url: "https://github.com/sanseevithakanesan", label: "GitHub" },
     { icon: <FaLinkedin />, url: "https://linkedin.com/in/sanseevitha-kanesan-40672126b", label: "LinkedIn" },
-    { icon: <FaWhatsapp />, url: "https://wa.me/0773029020?text=${encodeURIComponent(msg)}", label: "Twitter" }
+    { icon: <FaWhatsapp />, url: `https://wa.me/94773029020?text=${encodeURIComponent(msg)}`, label: "Twitter" }
   ];
 
   const handleDownload = (format, file) => {
@@ -111,7 +111,7 @@ const Hero = () => {
                     className="btn btn-primary d-flex align-items-center"
                     style={{ color: 'white' }}
                   >
-                    <FaDownload className="me-2" /> Quick Download (PDF)
+                    <FaDownload className="me-2"/>Download (PDF)
                   </a>
                   <Link 
                     to="contact" 
@@ -139,8 +139,6 @@ const Hero = () => {
                     className="social-icon hover-lift"
                     aria-label={link.label}
                     style={{ 
-                      backgroundColor: darkMode ? '#1f2937' : '#f9fafb',
-                      color: darkMode ? '#ffffff' : '#1f2937',
                       width: '40px',
                       height: '40px',
                       borderRadius: '50%',

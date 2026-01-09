@@ -4,10 +4,11 @@ import { FaGithub, FaLinkedin,FaWhatsapp } from 'react-icons/fa';
 
 
 const Footer = () => {
+  const msg = 'I want more details';
   const socialLinks = [
     { icon: <FaGithub />, url: "https://github.com/sanseevithakanesan", label: "GitHub" },
     { icon: <FaLinkedin />, url: "https://linkedin.com/in/sanseevitha-kanesan-40672126b", label: "LinkedIn" },
-    { icon: <FaWhatsapp />, url: "https://wa.me/0773029020?text=${encodeURIComponent(msg)}", label: "whatspp" }
+    { icon: <FaWhatsapp />, url: `https://wa.me/94773029020?text=${encodeURIComponent(msg)}`, label: "whatspp" }
   ];
   
 
