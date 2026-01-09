@@ -47,7 +47,7 @@ const Hero = () => {
     console.log(`Downloading CV in ${format} format`);
     const link = document.createElement('a');
     link.href = file;
-    link.download = `YourName_CV_${format}`;
+    link.download = `sanseevithaKanesan_CV_${format}`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
