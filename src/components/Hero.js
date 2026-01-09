@@ -107,7 +107,7 @@ const Hero = () => {
                 <div className="d-flex gap-2 mb-4">
                   <a 
                     href="/SanseevithaCV.pdf" 
-                    download="YourName_FullStack_Developer_CV.pdf"
+                    download="sanseevithaKanesan_FullStack_Developer_CV.pdf"
                     className="btn btn-primary d-flex align-items-center"
                     style={{ color: 'white' }}
                   >
