@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import profilePic from '../assets/sanseevitha.jpeg';
+import profilePic from '../assets/sanseevitha_profile.png';
 import { FaGithub, FaLinkedin, FaArrowDown, FaDownload,FaWhatsapp } from 'react-icons/fa';
 
 const Hero = () => {
