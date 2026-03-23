@@ -64,16 +64,5 @@ export const projectsData = [
     demo: "https://chat.yourdomain.com",
     category: "full-stack",
     featured: true
-  },
-  {
-    id: 7,
-    title: "Flutter Billing App",
-    description: "A powerful mobile billing application built with Flutter, featuring barcode scanning, real-time price calculation, invoice generation, and WhatsApp bill sharing for fast and efficient retail operations.",
-    techStack: ["Flutter", "MySQL", "REST API", "Barcode Scanner"],
-    image: "https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/sanseevithakanesan/Billing-app",
-    demo: "https://yourdomain.com/billing-app-demo",
-    category: "full-stack",
-    featured: true
   }
 ];
